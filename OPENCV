@@ -1,0 +1,1 @@
+python -c 'import yolox; from yolox.tracker.byte_tracker import BYTETracker; print("YOLOX BYTETracker works!")'

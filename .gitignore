@@ -1,0 +1,15 @@
+myenv/
+ByteTrack/
+YOLOX/
+__pycache__/
+runs/
+captures/
+speed_captures/
+dataset/
+datasets/
+*.pt
+*.onnx
+*.mp4
+*.wav
+*.exe
+*.png
