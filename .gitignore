@@ -1,15 +1,54 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+
+# ===============================
+# Virtual Environments
+# ===============================
 myenv/
+venv/
+.env
+
+# ===============================
+# CV / YOLO frameworks (source not needed)
+# ===============================
 ByteTrack/
 YOLOX/
-__pycache__/
+
+# ===============================
+# Generated outputs
+# ===============================
 runs/
+outputs/
 captures/
 speed_captures/
+vehicle_frames/
+
+# ===============================
+# Datasets & Models
+# ===============================
 dataset/
 datasets/
+models/
 *.pt
 *.onnx
+
+# ===============================
+# Media files
+# ===============================
 *.mp4
-*.wav
-*.exe
+*.avi
+*.jpg
 *.png
+*.wav
+
+# ===============================
+# Logs & temp
+# ===============================
+*.log
+*.tmp
+*.exe
+
