@@ -35,6 +35,7 @@ datasets/
 models/
 *.pt
 *.onnx
+*.weights
 
 # ===============================
 # Media files
