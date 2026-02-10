@@ -41,8 +41,6 @@ class SpeedConfig:
     manual_calibration: bool = True  # Enable manual calibration
     # FPS calculation
     fps_smoothing_window: int = 30  # Calculate FPS over last 30 frames
-    
-    # Manual calibration mode
     manual_calibration: bool = True  # Set to True to adjust meter_per_pixel live
 
 
@@ -170,7 +168,7 @@ class VehicleTracker:
             data['saved_image'] = True
             print(f"✅ SAVED: {filename}")
             print(f"   Peak: {peak_speed:.1f}km/h | Avg: {avg_speed:.1f}km/h")
-            print(f"   Tracked {data['age_frames']} frames ({data['age_frames']/self.cfg.fps:.2f}s)")
+            print(f"   Tracked {data['age_frames']} frames")
             
             # Free memory
             data['peak_frame_image'] = None
